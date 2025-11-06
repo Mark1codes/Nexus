@@ -18,9 +18,9 @@ export default function ReferralProgram() {
   }
 
   return (
-    <Card className="bg-gradient-to-br from-primary/5 to-accent/5 p-4 sm:p-6 animate-fadeIn">
+    <Card className="bg-linear-to-br from-primary/5 to-accent/5 p-4 sm:p-6 animate-fadeIn">
       <div className="flex items-start gap-3 sm:gap-4 mb-6">
-        <Users className="w-5 h-5 sm:w-6 sm:h-6 text-accent flex-shrink-0 mt-1" />
+        <Users className="w-5 h-5 sm:w-6 sm:h-6 text-accent shrink-0 mt-1" />
         <div className="flex-1">
           <h3 className="text-lg sm:text-xl font-semibold mb-1">Referral Program</h3>
           <p className="text-xs sm:text-sm text-muted-foreground">Share and earn rewards on every purchase</p>

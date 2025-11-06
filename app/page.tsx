@@ -1,5 +1,5 @@
 import Header from "@/components/header"
-import Hero from "@/components/hero"
+import Hero from "@/components/Landing"
 import FeaturedProducts from "@/components/featured-products"
 import ShopShowcase from "@/components/shop-showcase"
 import Footer from "@/components/footer"

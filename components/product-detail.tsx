@@ -119,14 +119,14 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
           <Link href="/products" className="hover:text-foreground transition-colors whitespace-nowrap">
             Products
           </Link>
-          <span className="flex-shrink-0">/</span>
+          <span className="shrink-0">/</span>
           <Link
             href={`/products?category=${product.category}`}
             className="hover:text-foreground transition-colors whitespace-nowrap"
           >
             {product.category}
           </Link>
-          <span className="flex-shrink-0">/</span>
+          <span className="fleshrink-0">/</span>
           <span className="text-foreground font-medium whitespace-nowrap">{product.name}</span>
         </div>
 
@@ -158,7 +158,7 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
                 <button
                   key={i}
                   onClick={() => setImageIndex(i)}
-                  className={`w-16 h-16 sm:w-20 sm:h-20 rounded border-2 transition-all flex-shrink-0 transform hover:scale-110 ${
+                  className={`w-16 h-16 sm:w-20 sm:h-20 rounded border-2 transition-all shrink-0 transform hover:scale-110 ${
                     i === imageIndex ? "border-primary scale-105" : "border-border hover:border-foreground/50"
                   }`}
                 >
@@ -304,7 +304,7 @@ export default function ProductDetail({ productId }: ProductDetailProps) {
                     className="flex items-start gap-3 animate-fadeIn"
                     style={{ animationDelay: `${i * 50}ms` }}
                   >
-                    <span className="w-1.5 h-1.5 bg-foreground rounded-full mt-1.5 flex-shrink-0"></span>
+                    <span className="w-1.5 h-1.5 bg-foreground rounded-full mt-1.5 shrink-0"></span>
                     <span>{detail}</span>
                   </li>
                 ))}

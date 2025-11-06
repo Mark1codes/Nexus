@@ -58,7 +58,7 @@ const ShopShowcaseSection = () => {
         </div>
 
         {/* CTA Section */}
-        <div className="mt-16 p-8 sm:p-12 rounded-lg bg-gradient-to-r from-primary/10 to-primary/5 border border-primary/20 text-center animate-slideInUp">
+        <div className="mt-16 p-8 sm:p-12 rounded-lg bg-linear-to-r from-primary/10 to-primary/5 border border-primary/20 text-center animate-slideInUp">
           <h3 className="text-2xl sm:text-3xl font-bold mb-4">Join the NEXUS Community</h3>
           <p className="text-muted-foreground mb-6 max-w-xl mx-auto text-sm sm:text-base">
             Subscribe to get exclusive offers, early access to new collections, and style tips

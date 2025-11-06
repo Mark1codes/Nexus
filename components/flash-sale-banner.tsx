@@ -34,11 +34,11 @@ export default function FlashSaleBanner() {
   }, [])
 
   return (
-    <Card className="bg-gradient-to-r from-accent via-accent/80 to-accent/60 text-accent-foreground overflow-hidden animate-fadeIn">
+    <Card className="bg-linear-to-r from-accent via-accent/80 to-accent/60 text-accent-foreground overflow-hidden animate-fadeIn">
       <div className="p-4 sm:p-6">
         <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-3">
-            <Zap className="w-6 h-6 sm:w-8 sm:h-8 flex-shrink-0" />
+            <Zap className="w-6 h-6 sm:w-8 sm:h-8 shrink-0" />
             <div>
               <h3 className="font-bold text-lg sm:text-xl">Flash Sale</h3>
               <p className="text-sm sm:text-base opacity-90">Up to 40% off on selected items</p>

@@ -42,7 +42,7 @@ const allProducts = [
     name: "Classic Denim Jeans",
     price: 99.99,
     category: "Pants",
-    image: "/classic-denim-jeans.jpg",
+    image: "/Denim.jpg",
     rating: 4.8,
   },
   {
@@ -50,7 +50,7 @@ const allProducts = [
     name: "Oxford Button Shirt",
     price: 69.99,
     category: "Shirts",
-    image: "/oxford-button-shirt.jpg",
+    image: "/Oxfordshirt.jpg",
     rating: 4.7,
   },
   {
@@ -58,7 +58,7 @@ const allProducts = [
     name: "Merino Wool Sweater",
     price: 129.99,
     category: "Knitwear",
-    image: "/merino-wool-sweater.jpg",
+    image: "/Sweater1.jpg",
     rating: 4.9,
   },
   {
@@ -66,7 +66,7 @@ const allProducts = [
     name: "Premium Leather Jacket",
     price: 249.99,
     category: "Outerwear",
-    image: "/premium-leather-jacket.jpg",
+    image: "/Leather1.jpg",
     rating: 4.8,
   },
   {
@@ -74,7 +74,7 @@ const allProducts = [
     name: "Summer Linen Shirt",
     price: 65.99,
     category: "Shirts",
-    image: "/summer-linen-shirt.jpg",
+    image: "/Summerlinear.jpg",
     rating: 4.7,
   },
   {
@@ -82,7 +82,7 @@ const allProducts = [
     name: "Structured Wool Coat",
     price: 199.99,
     category: "Outerwear",
-    image: "/structured-wool-coat.jpg",
+    image: "/WoolCoat.jpg",
     rating: 4.9,
   },
   {
@@ -90,7 +90,7 @@ const allProducts = [
     name: "Linen Trousers",
     price: 75.99,
     category: "Pants",
-    image: "/linen-trousers.jpg",
+    image: "/Trouser1.jpg",
     rating: 4.6,
   },
 ]
@@ -128,7 +128,7 @@ export default function ProductsGrid() {
 
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Sidebar Filters */}
-          <aside className="w-full lg:w-48 flex-shrink-0 animate-slideInLeft">
+          <aside className="w-full lg:w-48 shrink-0 animate-slideInLeft">
             <div className="bg-white rounded-lg border border-border p-6 space-y-6 sticky top-20">
               <div>
                 <h3 className="font-semibold mb-4 flex items-center gap-2">

@@ -36,7 +36,7 @@ const products = [
     name: "Neutral Sweater",
     price: "$79.99",
     category: "Knitwear",
-    image: "/placeholder.svg?key=neutral-sweater",
+    image: "/Sweater1.jpg",
     rating: 4.6,
   },
   {
@@ -44,7 +44,7 @@ const products = [
     name: "Casual Cotton T-Shirt",
     price: "$35.99",
     category: "Knitwear",
-    image: "/casual-cotton-tshirt.jpg",
+    image: "/Casual Cotton2.jpg",
     rating: 4.6,
   },
 ]

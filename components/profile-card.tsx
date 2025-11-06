@@ -6,7 +6,7 @@ import Link from "next/link"
 export default function ProfileCard() {
   return (
     <div className="bg-white rounded-lg border border-border overflow-hidden">
-      <div className="h-24 bg-gradient-to-r from-primary to-accent"></div>
+      <div className="h-24 bg-linear-to-r from-primary to-accent"></div>
 
       <div className="px-6 py-6">
         <div className="flex items-start justify-between mb-6">
