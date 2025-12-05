@@ -1,6 +1,4 @@
 import DashboardLayout from "@/components/dashboard-layout"
-import OrderHistory from "@/components/order-history"
-import ProfileCard from "@/components/profile-card"
 import QuickStats from "@/components/quick-stats"
 import WelcomeBanner from "@/components/dashboard-welcome-banner"
 import RecommendedProducts from "@/components/recommended-products"
@@ -31,17 +29,6 @@ export default function DashboardPage() {
         <RecommendedProducts />
 
         <PriceComparison />
-
-        {/* Profile and Orders */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          <div className="lg:col-span-1">
-            <ProfileCard />
-          </div>
-          <div className="lg:col-span-2">
-            <h2 className="text-xl font-semibold mb-4">Recent Orders</h2>
-            <OrderHistory />
-          </div>
-        </div>
       </div>
     </DashboardLayout>
   )

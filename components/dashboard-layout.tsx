@@ -22,7 +22,7 @@ import {
   Download,
   ChevronLeft,
 } from "lucide-react"
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { useAuth } from "@/lib/auth-context"
 import { Button } from "@/components/ui/button"
 
@@ -36,9 +36,15 @@ export default function DashboardLayout({ children, showBackButton = false }: Da
   const { user, logout } = useAuth()
   const [sidebarOpen, setSidebarOpen] = useState(false)
 
+  useEffect(() => {
+    if (!user) {
+      router.push("/login")
+    }
+  }, [user, router])
+
   const handleLogout = () => {
     logout()
-    router.push("/")
+    router.push("/login")
   }
 
   const handleBack = () => {
@@ -64,7 +70,6 @@ export default function DashboardLayout({ children, showBackButton = false }: Da
   ]
 
   if (!user) {
-    router.push("/login")
     return null
   }
 
